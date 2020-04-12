@@ -5,7 +5,7 @@ export default {
   input: 'src/index.js',
   external: ['react', 'prop-types'],
   output: {
-    format: 'umd',
+    format: 'esm',
     name: 'lightbulb',
     globals: {
       react: "React"

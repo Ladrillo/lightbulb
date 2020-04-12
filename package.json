@@ -1,6 +1,6 @@
 {
   "name": "@ladrillo/lightbulb",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A React library to render a lightbulb",
   "main": "dist/lightbulb.min.js",
   "scripts": {
