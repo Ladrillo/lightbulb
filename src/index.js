@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import Bulb from './Bulb'
 
 
-function Canvas({ }) {
+function Playground({ }) {
   return (
     <div className='playground'>
       <Bulb color='yellow' size={500} />
@@ -14,6 +14,6 @@ function Canvas({ }) {
 }
 
 render(
-  <Canvas />,
+  <Playground />,
   document.querySelector('#root')
 )
