@@ -5,8 +5,10 @@ import Bulb from './Bulb'
 
 function Canvas({ }) {
   return (
-    <div>
-      <Bulb color='red' on size={450} />
+    <div className='playground'>
+      <Bulb color='yellow' size={500} />
+      <Bulb on color='#4ec5ff' size={500} />
+      <Bulb on color='#E1FD00' />
     </div>
   )
 }
