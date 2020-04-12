@@ -5,7 +5,7 @@ const makeStyle = ({ on, color, size }) => {
   if (on) {
     return {
       svg: {
-        filter: `drop-shadow( -${size / 30}px ${size / 10}px ${size / 6}px ${color} )`,
+        filter: `drop-shadow( 0px ${size / 14}px ${size / 15}px ${color} )`,
       },
       glass: {
         fill: color,
